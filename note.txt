@@ -1,0 +1,31 @@
+  <!-- <h1>Sonali Enterprise</h1>
+
+            <p>Welcome to Sonali Enterprise – your one-stop destination for premium car accessories! We specialize in
+                offering a wide range of high-quality products designed to enhance your driving experience and keep your
+                vehicle in top condition. Whether you're looking for stylish car sunshades, comfortable car cushion
+                pillows, practical mobile stands, efficient car dusters, or durable steering covers, we have everything
+                you need. At Sonali Enterprise, we are committed to providing our customers with exceptional products
+                that combine functionality and style. Explore our collection and discover how our accessories can add  
+
+
+                convenience and elegance to your car journey.</p> -->
+
+
+                clip path which is provide cutted border 
+                clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+
+
+window.addEventListener("wheel,debounce());
+debounce(function,200);
+                 //debounce function can be used for delay scroll behavious in window 
+    function debounce(func, wait) {
+        let timeout;
+        return function(...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), wait);
+        };
+    }
+
+    grid-template-column:repeat(auto,minmax(150px,1fr))
+
+    searchable and link able  and responsive web page and then host 
